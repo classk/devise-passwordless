@@ -6,12 +6,12 @@ require "devise/passwordless/version"
 Gem::Specification.new do |spec|
   spec.name          = "devise-passwordless"
   spec.version       = Devise::Passwordless::VERSION
-  spec.authors       = ["Abe Voelker"]
-  spec.email         = ["_@abevoelker.com"]
+  spec.authors       = ["Abe Voelker", "Katsuyuki Koga"]
+  spec.email         = ["_@abevoelker.com", "koga@class-k.jp"]
 
   spec.summary       = %q{Passwordless (email-only) login strategy for Devise}
   #spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/abevoelker/devise-passwordless"
+  spec.homepage      = "https://github.com/classk/devise-passwordless"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
